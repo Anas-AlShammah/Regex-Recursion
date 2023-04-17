@@ -1,6 +1,6 @@
 /* Write a function to do the division operation without using the built-in division*/
 function division(number, dividedBy) {
-    if (number<=0 || dividedBy>number ){
+    if (number<=0 || dividedBy>number || dividedBy==0){
         
         return 0;
     }
